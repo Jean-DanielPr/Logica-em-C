@@ -1,1 +1,0 @@
-O comando while(enquanto) repete tudo o que estiver dentro dele enquando a condicao for verdadeira.

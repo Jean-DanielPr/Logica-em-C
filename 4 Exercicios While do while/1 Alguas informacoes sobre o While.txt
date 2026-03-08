@@ -1,0 +1,3 @@
+O comando while(enquanto) repete tudo o que estiver dentro dele enquando a condicao for verdadeira.
+O comando do while (faca enquanto) ele faz a condicao e so confere no final se ela e verdadeira ou nao.
+O comando do while ele sempre vai rodar pelo menos uma vez
