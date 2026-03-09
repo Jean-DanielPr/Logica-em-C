@@ -1,0 +1,18 @@
+for (para) ele faz todo os processos do (while) e do (do while) na mesma linha
+
+exemplo for(i=1; i<=10; i++){
+            printf("%i", i);
+        // nao precisa do ; no incremento
+}
+IMPORTANTE
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Na primeira passagem ele inicia a variavel i com o valor 1 (ele inicia somente na primeira passaagem)
+
+Nas passagens subsequentes, ele vai conferir se o i e menor ou igual a 10 e vai executar o que estiver dentro do for, e depois fazer o incremento 
+e conferir novamente se e verdadeira a condicao.
+Quando for falsa ele vai seguir o programa
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Em C moderno eu posso criar uma variavel dentro do for e ela so vai existir ali dentro
+for (int i=1; i<=10; i++)
+
+ps Nao estou utilizando acento pq o meu teclado e americano.
