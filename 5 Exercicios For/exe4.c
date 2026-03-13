@@ -14,7 +14,7 @@ int main(){
         }else{
             printf("ACESSO NEGADO\n");
         }
-        if(cont == 3 && tentativa){
+        if(cont == 3){
             printf("-------------------\n");
             printf("Limite de tentativas excedido.\n");
             printf("ACESSO BLOQUEADO\n");
