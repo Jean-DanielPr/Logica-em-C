@@ -8,7 +8,7 @@ int main(){
         printf(" Digite sua senha:\n");
         scanf("%i", &tentativa);
         printf("-------------------\n");
-        if (tentativa == senha_correta){
+        if (tentativa == senha_correta) {
             printf("ACESSO LIBERADO!\n");
             break;
         } else {
@@ -22,4 +22,4 @@ int main(){
         }
     }
     return 0;
-}
+}   
