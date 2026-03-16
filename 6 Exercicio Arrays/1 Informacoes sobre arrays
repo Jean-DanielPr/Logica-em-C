@@ -1,0 +1,10 @@
+Na linguagem C um array (vetor) sempre começa a contar da posição 0
+Então um array de 5 posições, ele na verdade vai contar do 0 até o 4
+O numero entre o colchete indica o número de posições que tem no array
+Exemplo nota[5]: Vão existir as seguintes posições
+nota[0]
+nota[1]
+nota[2]
+nota[3]
+nota[4] e fim.
+Observe que temos exatamente 5 posições, mas começamos a contar do zero
