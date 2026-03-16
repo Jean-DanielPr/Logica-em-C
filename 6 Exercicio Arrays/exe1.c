@@ -5,7 +5,7 @@
 int main(){
 
     for(int i=0;i<5;i++){
-        printf("Digite o %i* numero: \n", i+1);
+        printf("Digite o %i* numero: ", i+1);
         scanf("%i", &vetor[i]);
     }   
     printf("Agora os numeros na posicao inversa: \n");
