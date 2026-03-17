@@ -1,0 +1,15 @@
+Utilizando fgets 
+A função fgets é a mais segura e comum, pois lê uma linha inteira, incluindo espaços, até encontrar uma quebra de linha (\n) ou atingir o limite de caracteres. 
+
+#include <stdio.h>
+
+int main() {
+    char frase[100];
+    printf("Digite uma frase: ");
+    
+    // fgets(variavel, tamanho, stdin)
+    fgets(frase, sizeof(frase), stdin);
+    
+    printf("Voce digitou: %s", frase);
+    return 0;
+}

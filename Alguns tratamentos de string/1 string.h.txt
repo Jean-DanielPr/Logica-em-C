@@ -1,0 +1,21 @@
+Lingaguem C e uma lingaguem meio chatinha quando se trata de string, mas existe os meios de tratarmos delas
+Uma das formas e utilizando a biblioteca <string.h>
+Alguns comandos dessa biblioteca: 
+Copiar strings em C usando strcpy e strncpy;
+
+strcpy(var_destino, var_origem);
+AMBAS DEVEM SER STRING.
+
+strncpy: Realiza a cópia do conteúdo de uma variável a outra, porém,
+deve ser especificado o tamanho a ser copiado.
+Obs:Tanto a variável de destino como a de origem devem ser strings.
+
+Concatenar strings em linguagem C usando strcat e strncat;
+strcat(string_destino, string_origem);
+Realiza a concatenação do conteúdo de uma variável a outra.
+Ambas devem ser strings.
+O strcat substitui o caractere nulo final da primeira string com o primeiro caractere da segunda.
+
+Descobrir o tamanho de uma string em C usando strlen(nome_variavel);
+
+Comparar strings em C usando strcmp(nome_variavel);

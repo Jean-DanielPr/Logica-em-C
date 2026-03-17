@@ -1,0 +1,15 @@
+Utilizando scanf com Conjunto de Escaneamento (%[^\n]) 
+Se você precisar usar o scanf, pode usar o especificador "%[^\n]", que diz para ler tudo até encontrar uma quebra de linha. 
+
+#include <stdio.h>
+
+int main() {
+    char frase[100];
+    printf("Digite uma frase: ");
+    
+    // Lê tudo até o '\n'
+    scanf("%[^\n]s", frase);
+    
+    printf("Voce digitou: %s", frase);
+    return 0;
+}
