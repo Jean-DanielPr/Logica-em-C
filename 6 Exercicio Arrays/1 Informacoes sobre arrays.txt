@@ -8,3 +8,6 @@ nota[2]
 nota[3]
 nota[4] e fim.
 Observe que temos exatamente 5 posições, mas começamos a contar do zero
+
+Declarar um vetor na inicializacao
+Ex: int v[5] = {10, 25, 33, 40, 50};
