@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main (){
+	int a, b;
+	
+	for(a = 0, b = 10; a <= 10 && b >= 0; a++, b--) {
+		printf("A = %i B= %i \n", a, b);
+	}
+	return 0;
+}
